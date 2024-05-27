@@ -22,6 +22,8 @@ body {
 body.fixed {
   overflow: hidden;
 }
+
+/*------------Background-image--------*/
 .background-image {
   position: absolute;
   top: 0;
@@ -47,6 +49,7 @@ body.fixed {
   margin: 45px 0;
   max-width: 1100px;
 }
+/*-------Header------*/
 .header {
   display: flex;
   justify-content: space-between;
@@ -68,6 +71,8 @@ body.fixed {
 .close {
   display: none;
 }
+
+/*---- wrapper-------*/
 .wrapper {
   align-items: center;
   text-align: center;
@@ -403,7 +408,6 @@ button img:hover {
     margin-top: 1em;
   }
 
-  /*-------menu-----------*/
   .menu ul li {
     display: block;
     padding: 8px;
@@ -433,6 +437,8 @@ button img:hover {
     font-weight: 400;
     padding-left: 7px;
   }
+  
+
   .wrapper {
     margin-top: 7em;
   }
