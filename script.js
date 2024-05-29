@@ -1,5 +1,5 @@
 const modal = document.getElementById("modal");
-const openModal = document.getElementById("open");
+const openModal = document.getElementById("openModal");
 const closeIcon = document.getElementsByClassName("close-icon")[0];
 const thankYouPage = document.getElementById("thankYouPage");
 const closeThankYouBtn = document.getElementById("closeThankYouBtn");
@@ -31,7 +31,7 @@ let mahoganyLeft = parseInt(localStorage.getItem('mahoganyLeft')) || 0;
 const TARGET_AMOUNT = 100000;
 const targetDate = new Date(new Date().getFullYear(), 5, 30);
 
-open.onclick = function () {
+openModal.onclick = function () {
   modal.style.display = "block";
   document.body.classList.add("fixed");
 };
